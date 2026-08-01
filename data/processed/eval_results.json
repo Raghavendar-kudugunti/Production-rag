@@ -1,0 +1,126 @@
+{
+  "naive_accuracy": 0.9166666666666666,
+  "hybrid_accuracy": 1.0,
+  "results": [
+    {
+      "question": "What were Apple's total net sales for fiscal 2025?",
+      "expected": "$416,161 million",
+      "naive_answer": "Apple's total net sales for fiscal 2025 were $416,161 million.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly states the total net sales for fiscal 2025 as $416,161 million, matching the expected key fact.",
+      "hybrid_answer": "Apple's total net sales for fiscal 2025 were $416,161 million.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer correctly states the total net sales for fiscal 2025 as $416,161 million, matching the expected key facts."
+    },
+    {
+      "question": "How much did Apple spend on research and development in fiscal 2025?",
+      "expected": "$34,550 million",
+      "naive_answer": "Apple spent $34,550 million on research and development in fiscal 2025.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly identifies the R&D expenditure of $34,550 million for fiscal 2025 as stated in the expected answer.",
+      "hybrid_answer": "Apple spent $34,550 million on research and development in fiscal 2025.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer correctly identifies the exact numerical value specified in the expected answer."
+    },
+    {
+      "question": "What was Apple's net income for fiscal 2025?",
+      "expected": "$112,010 million",
+      "naive_answer": "Apple's net income for fiscal 2025 was $112,010 million.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly states the net income figure provided in the expected answer.",
+      "hybrid_answer": "Apple's net income for fiscal 2025 was $112,010 million.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer correctly identifies the net income figure provided in the expected answer."
+    },
+    {
+      "question": "What was Apple's gross margin for fiscal 2025?",
+      "expected": "$195,201 million",
+      "naive_answer": "Apple's total gross margin for fiscal 2025 was $195,201 million.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer explicitly states the correct figure of $195,201 million for Apple's fiscal 2025 gross margin as required.",
+      "hybrid_answer": "Apple's total gross margin for fiscal 2025 was $195,201 million.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer explicitly states the correct figure of $195,201 million for Apple's fiscal 2025 gross margin as provided in the expected answer."
+    },
+    {
+      "question": "What were Apple's total operating expenses in fiscal 2025?",
+      "expected": "$62,151 million",
+      "naive_answer": "Based on the provided Consolidated Statements of Operations (by segment), Apple's total operating expenses for 2025 are the sum of the following costs:\n\n*   **Cost of sales:** $220,960 million\n*   **Research and development:** $34,550 million\n*   **Selling and marketing:** $19,524 million\n*   **General and administrative:** $8,077 million\n\nThe sum of these figures is **$283,111 million**.",
+      "naive_score": 0,
+      "naive_reason": "The actual answer incorrectly includes \"Cost of sales\" in the calculation of total operating expenses, which led to a sum ($283,111 million) that deviates significantly from the expected value of $62,151 million.",
+      "hybrid_answer": "Apple's total operating expenses in fiscal 2025 were $62,151 million.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer explicitly states the correct figure of $62,151 million as requested."
+    },
+    {
+      "question": "What was Apple's diluted earnings per share for fiscal 2025?",
+      "expected": "$7.46",
+      "naive_answer": "Apple's diluted earnings per share for fiscal 2025 was $7.46.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer explicitly states the correct value of $7.46 for Apple's diluted earnings per share for fiscal 2025.",
+      "hybrid_answer": "Apple's diluted earnings per share for fiscal 2025 was $7.46.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer explicitly states the correct diluted earnings per share of $7.46 as required."
+    },
+    {
+      "question": "How much did net sales grow in Europe during fiscal 2025?",
+      "expected": "10%",
+      "naive_answer": "Europe net sales increased by 10% during 2025 compared to 2024.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer explicitly states that Europe net sales increased by 10% in fiscal 2025, which matches the expected value.",
+      "hybrid_answer": "Net sales in Europe grew by 10% during fiscal 2025.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer correctly identifies the growth percentage of 10% specified in the expected answer."
+    },
+    {
+      "question": "What percentage did Services net sales grow in fiscal 2025?",
+      "expected": "14%",
+      "naive_answer": "Services net sales grew by 14% in fiscal 2025 compared to 2024.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly identifies the 14% growth rate specified in the expected answer.",
+      "hybrid_answer": "Services net sales grew by 14% in fiscal 2025.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer correctly identifies the 14% growth figure specified in the expected answer."
+    },
+    {
+      "question": "What is Apple's Item 1A Risk Factors section primarily about?",
+      "expected": "material risks to business, reputation, operations, financial condition and stock price",
+      "naive_answer": "The Item 1A Risk Factors section summarizes factors that could have a material adverse effect on the Company’s business, reputation, results of operations, financial condition, and stock price.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly incorporates all the key elements regarding the material risks to the business, reputation, operations, financial condition, and stock price.",
+      "hybrid_answer": "The Item 1A \"Risk Factors\" section summarizes factors that could have a material adverse effect on the Company’s business, reputation, results of operations, financial condition, and stock price. These risks include, but are not limited to, macroeconomic and industry conditions, global supply chain complexities, political and business interruptions, stock price volatility, and potential design or manufacturing defects.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer explicitly includes all the key facts from the expected answer while providing additional relevant context."
+    },
+    {
+      "question": "Does Apple face risks related to cybersecurity?",
+      "expected": "yes, Item 1C addresses cybersecurity risks",
+      "naive_answer": "Yes. According to the provided text, Apple faces risks related to cybersecurity, including malicious attacks and unauthorized access to its systems, which occur on a regular basis. These incidents can compromise the confidentiality, integrity, or availability of confidential information, disrupt business operations, and expose the company to litigation, investigations, penalties, or fines. The company is at a relatively greater risk of being targeted due to its high profile and the value of the information it manages. Additionally, security measures are not always effective and remain vulnerable to hacking, ransomware, employee error, malfeasance, system error, and faulty password management.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly identifies that Apple faces cybersecurity risks and implicitly confirms the regulatory/disclosures context by citing the nature of the risks described in standard corporate filings like Item 1C.",
+      "hybrid_answer": "Yes. The Company faces material risks from cybersecurity threats, including malicious attacks and attempts to gain unauthorized access to its systems, which occur on a regular basis. The Company notes that it is at a \"relatively greater risk of being targeted\" due to its high profile and the value of the information it manages. These threats target the confidentiality, integrity, or availability of confidential information and may disrupt business operations.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer confirms that Apple faces cybersecurity risks, which aligns with the expected acknowledgment of Item 1C's coverage of those risks."
+    },
+    {
+      "question": "What was Apple's total cost of sales in fiscal 2025?",
+      "expected": "$220,960 million",
+      "naive_answer": "Apple's total cost of sales in fiscal 2025 was $220,960 million.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer explicitly states the correct figure of $220,960 million as requested.",
+      "hybrid_answer": "Apple's total cost of sales in fiscal 2025 was $220,960 million.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer correctly identifies the total cost of sales for fiscal 2025 as $220,960 million, matching the expected key facts."
+    },
+    {
+      "question": "How much did Apple's net sales grow in Japan during fiscal 2025?",
+      "expected": "15%",
+      "naive_answer": "Apple's net sales in Japan increased by 15% during 2025 compared to 2024.",
+      "naive_score": 1,
+      "naive_reason": "The actual answer correctly identifies the 15% growth rate specified in the expected answer.",
+      "hybrid_answer": "In fiscal 2025, Apple's net sales in Japan grew by 15% compared to 2024.",
+      "hybrid_score": 1,
+      "hybrid_reason": "The actual answer explicitly states the correct growth figure of 15% as requested."
+    }
+  ]
+}
